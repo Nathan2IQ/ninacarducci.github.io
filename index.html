@@ -4,7 +4,7 @@
 	<title>Nina Carducci Photographe</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Nina Carducci's portfolio to showcase her work and talent, use the contact form to get your own photos.">
-	<meta property="og:site_name" content="Nina Carducci Photographe" />
+	<meta property="og:site_name" content="Nina Carducci" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://nathan2iq.github.io/ninacarducci.github.io/" />
 	<meta property="og:title" content="Mon portfolio - Venez découvrir mon travail !" />
@@ -26,6 +26,36 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+	<script src="./assets/JSON-LD.json">
+		{
+      "@context"; "https://schema.org",
+      "@type"; "CreativeWork",
+      "url"; "https://nathan2iq.github.io/ninacarducci.github.io/",
+      "logo"; "https://nina-carducci-photographe.netlify.app/assets/images/nina-lossy.webp",
+      "name"; "Nina Carducci",
+      "description"; "Nina Carducci's portfolio to showcase her work and talent, use the contact form to get your own photos.",
+      "telephone"; "+335 56 67 78 89",
+	  	{
+      	"@type": "OpeningHoursSpecification",
+      	"dayOfWeek": [
+      	    "Lundi",
+      	    "Mardi",
+      	    "Mercredi",
+      	    "Jeudi",
+      	    "Vendredi"
+      	],
+			"opens": "10:00",
+        	"closes": "19:00"
+    	}
+      "address"; {
+        "@type"; "PostalAddress",
+        "streetAddress"; "68 avenue Alsace-Lorraine",
+        "addressLocality"; "Bordeaux",
+        "addressCountry"; "FR",
+        "addressRegion"; "Nouvelle-Aquitaine",
+        "postalCode"; "33200"
+      }}
+	</script>
 </head>
 
 <body>
@@ -46,9 +76,6 @@
 	</header>
 
 <main>
-
-	<p class="contact__hidden">05 56 67 78 89</p>
-	<p class="contact__hidden">68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
